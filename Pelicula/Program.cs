@@ -9,7 +9,7 @@ namespace Pelicula
         //Campos
         private List<Actor> actores = new List<Actor>();
         public string titulo;
-        public int16 Año;
+        public int16 año;
         public string pais;
         public string director;
 
@@ -49,7 +49,7 @@ namespace Pelicula
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
+            Console.WriteLine("{0}({1})");
         }
     }
 }
