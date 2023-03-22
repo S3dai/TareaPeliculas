@@ -25,8 +25,34 @@ namespace Pelicula
         }
      
         //Métodos
+
+        public string GetTitulo()
+        {
+            return titulo;
+        }
+
+        public void SetTitulo()
+        {
+            set;
+            {
+                titulo = value;
+            }
+        }
+
+        public Int16 GetAño()
+        {
+            return año;
+        }
+
+        public void SetAño()
+        {
+            Set;
+            {
+                año = ValueTuple;
+            }
+        }
      
-        public void Imprime()
+        public  Imprime()
         {
      //       Console.WriteLine($"{titulo} ({año})");
 
