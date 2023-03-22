@@ -126,7 +126,7 @@ namespace Pelicula
            Pelicula p1 = new Pelicula("Parasitos","Corea del Sur",2019,"Bong Joon-ho");
            p1.Imprime();
            Pelicula p2 = new Pelicula("Green Book","EUA",2019,"Peter Farrelly");
-           p2.Imprime(); */
+           p2.Imprime();
         }
     }
 }
