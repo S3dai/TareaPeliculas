@@ -48,11 +48,11 @@ namespace Pelicula
         {
             Set;
             {
-                año = ValueTuple;
+                año = Value;
             }
         }
      
-        public  Imprime()
+        public void Imprime()
         {
      //       Console.WriteLine($"{titulo} ({año})");
 
