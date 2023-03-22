@@ -122,11 +122,29 @@ namespace Pelicula
             p1.AgregaActor(new Actor("Ryan Gosling", 1980));
             p1.AgregaActor(new Actor("Emma Stone", 1988));
             p1.ImprimeActores();
-
+            /*
+            Lista peliculas
+        List<Pelicula> peliculas = new List<Pelicula>();
+        
+        peliculas.Add(new Pelicula() { Titulo = "La La Land", año = 2016 });
+        peliculas.Add(new Pelicula() { Titulo = "Green Book", año = 2019 });
+        peliculas.Add(new Pelicula() { Titulo = "Parasite", año = 2019 });
+        peliculas.Add(new Pelicula() { Titulo = "Pinocho", año = 2022 });
+        peliculas.Add(new Pelicula() { Titulo = "CODA", año = 2021 });
+        foreach (Pelicula p in peliculas)
+        {
+            Console.WriteLine($"{p.Titulo} ({p.año})");
+        } 
+           
+           Pelicula p1 = new Pelicula();
+           p1.SetTitulo("La La Land");
+           p1.SetAño(2016);
+           Console.WriteLine("{0}({1})", p1.GetTitulo(), p1.GetAño());
+           
            Pelicula p1 = new Pelicula("Parasitos","Corea del Sur",2019,"Bong Joon-ho");
            p1.Imprime();
            Pelicula p2 = new Pelicula("Green Book","EUA",2019,"Peter Farrelly");
-           p2.Imprime();
+           p2.Imprime(); */
         }
     }
 }
