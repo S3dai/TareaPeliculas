@@ -45,7 +45,7 @@ namespace Pelicula
         public Actor(string nombre, Int16 año)
         {
             this.Nombre = Nombre;
-            this.año = Año;
+            this.Año = Año;
         }
 
         //Métodos 
