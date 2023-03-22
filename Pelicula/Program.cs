@@ -33,10 +33,7 @@ namespace Pelicula
 
         public void SetTitulo
         {
-            set
-            {
-                titulo = value;
-            }
+            set{titulo = value;}
         }
 
         public Int16 GetAño()
