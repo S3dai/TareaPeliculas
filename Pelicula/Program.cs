@@ -42,7 +42,7 @@ namespace Pelicula
         Int16 Año{get; set;}
 
         //Constructores
-        public AsignarActores(string nombre, Int16 año)
+        public Actor(string nombre, Int16 año)
         {
             this.Nombre = Nombre;
             this.año = Año;
