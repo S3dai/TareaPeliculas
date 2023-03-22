@@ -31,9 +31,9 @@ namespace Pelicula
             return titulo;
         }
 
-        public void SetTitulo()
+        public void SetTitulo
         {
-            set;
+            set
             {
                 titulo = value;
             }
@@ -44,9 +44,9 @@ namespace Pelicula
             return año;
         }
 
-        public void SetAño()
+        public void SetAño
         {
-            Set;
+            set
             {
                 año = Value;
             }
