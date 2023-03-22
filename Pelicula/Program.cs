@@ -8,10 +8,10 @@ namespace Pelicula
     {
         //Campos
         private List<Actor> actores = new List<Actor>();
-        public string titulo;
-        public int16 año;
-        public string pais;
-        public string director;
+        private string titulo;
+        private int16 año;
+        private string pais;
+        private string director;
 
         //Constructores
      
@@ -49,7 +49,16 @@ namespace Pelicula
 
         static void Main(string[] args)
         {
-            Console.WriteLine("{0}({1})");
+            Pelicula p1 = new Pelicula();
+            p1.SetTitulo("Titanic");
+            p1.SetAño(1997);
+
+            Pelicula p2 = new Pelicula();
+            p2.SetTitulo("Ben-Hur");
+            p2.SetAño(1959);
+
+            Console.WriteLine("{0}({1})", p1.GetTitulo(), p1.GetAño());
+            Console.WriteLine("{0}({1})", p2.GetTitulo(), p2.GetAño());
         }
     }
 }
