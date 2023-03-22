@@ -14,6 +14,15 @@ namespace Pelicula
         private string director;
 
         //Constructores
+        public Pelicula()
+        {
+        }
+
+        public Pelicula(string titulo, Int16 Año)
+        {
+            this.titulo = titulo;
+            this.año = Año;
+        }
      
         //Métodos
      
