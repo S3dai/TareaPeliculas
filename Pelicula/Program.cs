@@ -42,7 +42,7 @@ namespace Pelicula
         Int16 Año{get; set;}
 
         //Constructores
-        public Actor(string nombre, Int16 año)
+        public Actor(string Nombre, Int16 Año)
         {
             this.Nombre = Nombre;
             this.Año = Año;
@@ -65,13 +65,18 @@ namespace Pelicula
             Pelicula p1 = new Pelicula();
             p1.SetTitulo("Titanic");
             p1.SetAño(1997);
+            p1.AsignarActores();
 
             Pelicula p2 = new Pelicula();
             p2.SetTitulo("Ben-Hur");
             p2.SetAño(1959);
+            p2.AsignarActores();
 
             Console.WriteLine("{0}({1})", p1.GetTitulo(), p1.GetAño());
             Console.WriteLine("{0}({1})", p2.GetTitulo(), p2.GetAño());
+
+            p1.ImprimeActores();
+            p2.imprimeActores();
         }
     }
 }
