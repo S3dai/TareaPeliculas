@@ -9,7 +9,7 @@ namespace Pelicula
         //Campos
         private List<Actor> actores = new List<Actor>();
         private string titulo;
-        private int16 año;
+        private Int16 año;
         private string pais;
         private string director;
 
@@ -38,9 +38,15 @@ namespace Pelicula
     public class Actor
     {
         //Propiedades
+        string Nombre {get; set;}
+        Int16 Año{get; set;}
 
         //Constructores
-
+        public AsignarActores(string nombre, Int16 año)
+        {
+            this.Nombre = Nombre;
+            this.año = Año;
+        }
 
         //Métodos 
         public void Imprime()
@@ -54,8 +60,6 @@ namespace Pelicula
 
     class Program
     {
-
-
         static void Main(string[] args)
         {
             Pelicula p1 = new Pelicula();
